@@ -1,0 +1,22 @@
+{
+  "name": "projectfamily",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start:front": "cd web-app && npm start",
+    "build:front": "cd web-app && npm run build",
+    "test:front": "cd web-app && npm test",
+    "start:api": "cd web-api && npm start",
+    "dev:api": "cd web-api && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Axelgourlin/ProjectFamily.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Axelgourlin/ProjectFamily/issues"
+  },
+  "homepage": "https://github.com/Axelgourlin/ProjectFamily#readme"
+}
