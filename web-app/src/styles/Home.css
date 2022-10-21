@@ -1,0 +1,60 @@
+.wrapper {
+  display: grid;
+  gap: 25px;
+  padding: 25px;
+  grid-template-columns: repeat(1, 1fr);
+  grid-auto-rows: minmax(250px, auto);
+}
+
+.card {
+  padding: 5px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  transition: background-color .2s;
+}
+
+.card:hover {
+  background-color: #525252;
+}
+
+.card > img {
+  transition: transform .2s;
+}
+
+.card:hover > img {
+  transform: scale(1.1);
+}
+
+.no-game {
+  text-align: center;
+  padding: 25px;
+}
+
+@media (min-width: calc(245px * 2)) {
+  .wrapper { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: calc(245px * 3)) {
+  .wrapper { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (min-width: calc(245px * 4)) {
+  .wrapper { grid-template-columns: repeat(4, 1fr); }
+}
+
+@media (min-width: calc(245px * 5)) {
+  .wrapper { grid-template-columns: repeat(5, 1fr); }
+}
+
+@media (min-width: calc(245px * 6)) {
+  .wrapper { grid-template-columns: repeat(6, 1fr); }
+}
+
+@media (min-width: calc(245px * 7)) {
+  .wrapper { grid-template-columns: repeat(7, 1fr); }
+}
+
+@media (min-width: calc(245px * 8)) {
+  .wrapper { grid-template-columns: repeat(8, 1fr); }
+}
